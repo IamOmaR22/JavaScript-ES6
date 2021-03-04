@@ -30,4 +30,4 @@ npm install --save-dev babel-core babel-preset-env
 
 npm install @babel/core --save
 
-$ npm run dev
+$ npm run dev   // This command will compile the code to run on browser.
