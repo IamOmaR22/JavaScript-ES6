@@ -1,0 +1,33 @@
+$ npm init -y
+
+$ code .
+
+$ npm install --save-dev babel-core babel-preset-env
+
+Create a new file called .babelrc
+
+$ npm install --save-dev webpack babel-loader
+
+$ npm install --save-dev webpack-cli -D
+
+Create a new folder called src and Inside src folder create a file called index.js 
+
+Create a new file called webpack.config.js
+
+Then go to package.json file and remove the test from scripts. Added dev and build inside scripts.
+
+$ npm run dev
+
+
+
+Additional [If error occurs]
+
+$ npm install -D babel-loader @babel/core @babel/preset-env webpack
+
+npm install --save-dev @babel/core @babel/preset-env
+
+npm install --save-dev babel-core babel-preset-env
+
+npm install @babel/core --save
+
+$ npm run dev
