@@ -31,3 +31,21 @@ npm install --save-dev babel-core babel-preset-env
 npm install @babel/core --save
 
 $ npm run dev   // This command will compile the code to run on browser.
+
+
+
+// -- // Setup Webpack Dev Server [ After doing this no need to apply npm run dev every time ] // -- //
+
+$ npm install -D webpack-dev-server         or        npm install --save-dev webpack-dev-server
+
+Then add start scripts inside the package.json file. After that we can open our dev server by using npm start.
+
+Then add a new line inside the webpack.config.js file for declare the publicPath. After that we can remove the dist folder.
+
+In package.json file and Inside "scripts": { }, ==>
+                                                    
+    "start": "webpack serve --mode development"             -- Use this for start the webpack server. It will give you a port http://localhost:8080/
+
+    "start": "webpack serve --open --mode development"      -- Use this for start and open the webpack server. It will give you a port and directly open on the browser.
+
+$ npm start
