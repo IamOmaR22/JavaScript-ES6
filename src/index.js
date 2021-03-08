@@ -576,4 +576,34 @@
 
 
 // #####-----###-----#####   Classes in Details Start  #####-----###-----#####
+
+// import Person from './person'
+
+// let p1 = new Person('Md. Omar Faruk', 'omar.faruk@gmail.com')  // Now we can call all the method from Person class by p1.
+
+// console.log(p1.name);
+
+// p1.print()  // Call the print method.
+
 // #####-----###-----#####   Classes in Details End  #####-----###-----#####
+
+
+
+
+
+
+// #####-----###-----#####   Classes And Inheritance Start  #####-----###-----#####
+
+// // We will use the teacher.js and student.js file for this. [Create a file called student.js in src folder]
+
+// // We will inherit Teacher class through another Student class.
+
+// // Now we will import here the Student class, not Teacher class. Because, we have inherited the Teacher class into Student class.
+
+// import Student from './student'
+
+// let st1 = new Student('Biki', 'biki@gmail.com', '8550');
+
+// st1.welcome()
+
+// #####-----###-----#####   Classes And Inheritance End  #####-----###-----#####
