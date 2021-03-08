@@ -49,3 +49,17 @@ In package.json file and Inside "scripts": { }, ==>
     "start": "webpack serve --open --mode development"      -- Use this for start and open the webpack server. It will give you a port and directly open on the browser.
 
 $ npm start
+
+
+
+
+
+// -- // Module System -- Instruction // -- //
+
+Module -- We can do many work in separate file and we can join them in one place. A module can contain variables and functions.
+
+In src folder -- Create a file called math.js
+
+Let's create a function inside math.js file. Then we need use export to use them in other file. export means, it's accessible to any file.
+
+We need to import the file which i exported to use.
